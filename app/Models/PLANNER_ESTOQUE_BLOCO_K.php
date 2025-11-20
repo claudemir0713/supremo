@@ -12,7 +12,6 @@ class PLANNER_ESTOQUE_BLOCO_K extends Model
     function __construct()
     {
         return $this->connection = env('APP_NAME');
-        // return $this->connection = 'Decorbras';
 
     }
 	protected $table = 'PLANNER_ESTOQUE_BLOCO_K';

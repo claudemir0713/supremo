@@ -31,7 +31,7 @@ class fechamentoController extends Controller
                         'SISTEMA' 									AS ORIGEM
                         ,'VENDA' 									AS TIPO
                         ,'NF' 								        AS TIPO_RECEITA
-                        ,'DECORBRAS' 			   					AS EMPRESA
+                        ,'SUPREMO' 			   					AS EMPRESA
                         ,NF.NF_NUMERO_REAL	   		   				AS DOCUMENTO
                         ,NF.NS_SERIE			   					AS SERIE_FAT
                         ,NF.NF_DT_EMISSAO 		   	 				AS DATA_COMP
@@ -107,7 +107,7 @@ class fechamentoController extends Controller
                         'SISTEMA' 									AS ORIGEM
                         ,'VENDA' 									AS TIPO
                         ,'NF' 								        AS TIPO_RECEITA
-                        ,'DECORBRAS' 			   					AS EMPRESA
+                        ,'SUPREMO' 			   					AS EMPRESA
                         ,NF.NF_NUMERO_REAL	   		   				AS DOCUMENTO
                         ,NF.NS_SERIE			   					AS SERIE_FAT
                         ,NF.NF_DT_EMISSAO 		   	 				AS DATA_COMP
@@ -180,7 +180,7 @@ class fechamentoController extends Controller
                         'SISTEMA' 									AS ORIGEM
                         ,'VENDA' 									AS TIPO
                         ,'NF' 								        AS TIPO_RECEITA
-                        ,'DECORBRAS' 			   					AS EMPRESA
+                        ,'SUPREMO' 			   					AS EMPRESA
                         ,NF.NF_NUMERO_REAL	   		   				AS DOCUMENTO
                         ,NF.NS_SERIE			   					AS SERIE_FAT
                         ,NF.NF_DT_EMISSAO 		   	 				AS DATA_COMP
@@ -252,7 +252,7 @@ class fechamentoController extends Controller
                         'SISTEMA'          								AS ORIGEM
                         ,'VENDA'          								AS TIPO
                         ,'NF'                 						    AS TIPO_RECEITA
-                        ,'DECORBRAS'            						AS EMPRESA
+                        ,'SUPREMO'            						AS EMPRESA
                         ,NF_NUMERO_REAL   								AS DOCUMENTO
                         ,NS_SERIE           							AS SERIE_FAT
                         ,NF_DT_EMISSAO           						AS DATA_COMP
@@ -363,7 +363,7 @@ class fechamentoController extends Controller
                         'SISTEMA' 						 		    AS ORIGEM
                         ,'VENDA' 						 		    AS TIPO
                         ,DAV.DAV_TIPO 					  	        AS TIPO_RECEITA
-                        ,'DECORBRAS' 			   				    AS EMPRESA
+                        ,'SUPREMO' 			   				    AS EMPRESA
                         ,DAV.DAV_NUMERO_AUXILIAR	   	   	   	    AS DOCUMENTO
                         ,''	   		   				   			    AS SERIE_FAT
                         ,DAV.DAV_DATA_EMISSAO		   	 	   	    AS DATA_COMP

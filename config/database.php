@@ -66,9 +66,9 @@ return [
         'mlc' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => '170.150.0.187',
+            'host' => '192.168.1.158',
             'port' => '3306',
-            'database' => 'mlc_decorbras',
+            'database' => 'mlc_supremo',
             'username' => 'root',
             'password' => 'sisinfo',
             'unix_socket' => env('DB_SOCKET', ''),
@@ -104,7 +104,16 @@ return [
             'charset'  => 'utf8',
             'role'     => null,
         ],
-
+        'Supremo' => [
+            'driver'   => 'firebird',
+            'host'     => '192.168.1.115',
+            'port'     => '3050',
+            'database' => 'C:\Singular\BD\SUPREMO_PORTAS.SIN',
+            'username' => 'SYSDBA',
+            'password' => 'godislive2000',
+            'charset'  => 'utf8',
+            'role'     => null,
+        ],
         // 'singular' => [
         //     'driver'   => 'firebird',
         //     'host'     => env('DB_HOST','192.168.0.244'),

@@ -43,7 +43,7 @@ class atualizaProdutoMysql implements ShouldQueue
                 ,NCM_CODIGO
             FROM PRODUTOS
         ";
-        $Produto_singular = DB::connection('Decorbras')->select($sql);
+        $Produto_singular = DB::connection('Supremo')->select($sql);
         // $sql="
         //     SELECT
         //         CAST(LTRIM(RTRIM(B1_CODPROD)) AS INTEGER)				AS PRD_CODIGO
