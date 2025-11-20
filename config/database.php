@@ -106,7 +106,7 @@ return [
         ],
         'Supremo' => [
             'driver'   => 'firebird',
-            'host'     => '192.168.1.115',
+            'host'     => '192.168.1.158',
             'port'     => '3050',
             'database' => 'C:\Singular\BD\SUPREMO_PORTAS.SIN',
             'username' => 'SYSDBA',
